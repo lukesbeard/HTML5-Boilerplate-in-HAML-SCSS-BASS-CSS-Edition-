@@ -42,12 +42,15 @@
     %meta{:content => "", :name => "twitter:image"}
     
     //CSS
-    %link{:href => "css/bass.css", :rel => "stylesheet"}
+    %link{:href => "/css/bass.css", :rel => "stylesheet"}
 
  
   %body
     %div.container
-      %h1 Hello world! This is Luke's HAML + CSS boilerplate.
+      %h1.h1-responsive Hello world! This is Luke's HAML + CSS boilerplate.
+
+      %new
+        %input.field{type:"email", placeholder:"hello@email.com"}
 
       %div.p2.uber-rounded.bg-orange
     

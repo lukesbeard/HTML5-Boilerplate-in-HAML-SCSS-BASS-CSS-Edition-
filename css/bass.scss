@@ -30,19 +30,21 @@ $mono-spaced: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewrit
 $border-radius: 3px;
 
 /*
-
   Basscss
   http://basscss.com
-
-  5.17 kB
-  523 Rules
-  603 Selectors
-  748 Declarations
-  Generated with http://basscss.com/customize
-
 */
 
-*    {box-sizing: border-box}
+/*Wild card*/
+* {
+     box-sizing: border-box;
+     text-rendering: optimizeLegibility;
+     font-feature-settings: "kern";
+     -webkit-font-feature-settings: "kern";
+     -moz-font-feature-settings: "kern";
+     -moz-font-feature-settings: "kern=1";
+     -webkit-font-smoothing: antialiased;
+  }
+
 body { margin: 0 }
 img  { max-width: 100% }
 svg  { max-height: 100% }
