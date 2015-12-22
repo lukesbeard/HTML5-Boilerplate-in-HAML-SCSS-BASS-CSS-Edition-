@@ -1,5 +1,6 @@
 /* Variables */
 /*Colors*/
+/*For brand colors*/
 /*Fonts*/
 /*Misc*/
 /*
@@ -314,6 +315,18 @@ hr {
 
 .justify {
   text-align: justify; }
+
+.brand-font {
+  font-family: "Helvetica Neue", Helvetica, sans-serif; }
+
+.sans-serif {
+  font-family: "Helvetica Neue", Helvetica, sans-serif; }
+
+.serif {
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif; }
+
+.mono {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; }
 
 .nowrap {
   white-space: nowrap; }
@@ -891,6 +904,12 @@ hr {
 .not-rounded {
   border-radius: 0; }
 
+.spot {
+  color: #B8E986; }
+
+.spot-accent {
+  color: #86E1E9; }
+
 .black {
   color: #111; }
 
@@ -947,6 +966,12 @@ hr {
 
 .muted {
   opacity: 0.5; }
+
+.bg-spot {
+  background-color: #B8E986; }
+
+.bg-spot-accent {
+  background-color: #86E1E9; }
 
 .bg-black {
   background-color: #111; }
