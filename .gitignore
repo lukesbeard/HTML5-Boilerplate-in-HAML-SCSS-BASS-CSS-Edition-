@@ -3,3 +3,7 @@ config.codekit
 
 css/.sass-cache/e20bd8325368c96e1e192a02a47b16f1b5f989ac/bass.scssc
 build/
+
+css/bass.scss
+
+index.haml
