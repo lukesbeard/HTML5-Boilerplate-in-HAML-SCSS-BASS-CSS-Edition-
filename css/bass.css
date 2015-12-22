@@ -14,6 +14,9 @@
   Generated with http://basscss.com/customize
 
 */
+* {
+  box-sizing: border-box; }
+
 body {
   margin: 0; }
 
