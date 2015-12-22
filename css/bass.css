@@ -1,3 +1,7 @@
+/* Variables */
+/*Colors*/
+/*Fonts*/
+/*Misc*/
 /*
 
   Basscss
@@ -84,12 +88,12 @@ td {
   vertical-align: top; }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   line-height: 1.5;
   font-size: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.25;
   margin-top: 1em;
@@ -104,7 +108,7 @@ dl, ol, ul {
   margin-bottom: 1rem; }
 
 pre, code, samp {
-  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   font-size: inherit; }
 
 pre {
@@ -852,6 +856,9 @@ hr {
 .rounded {
   border-radius: 3px; }
 
+.uber-rounded {
+  border-radius: 6px; }
+
 .circle {
   border-radius: 50%; }
 
@@ -866,6 +873,18 @@ hr {
 
 .rounded-left {
   border-radius: 3px 0 0 3px; }
+
+.uber-rounded-top {
+  border-radius: 6px 6px 0 0; }
+
+.uber-right {
+  border-radius: 0 6px 6px 0; }
+
+.uber-bottom {
+  border-radius: 0 0 6px 6px; }
+
+.uber-left {
+  border-radius: 6px 0 0 6px; }
 
 .not-rounded {
   border-radius: 0; }
@@ -895,7 +914,7 @@ hr {
   color: #39cccc; }
 
 .green {
-  color: #2ecc40; }
+  color: #39cccc; }
 
 .olive {
   color: #3d9970; }
